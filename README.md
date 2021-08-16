@@ -37,13 +37,15 @@ Você está em uma startup que acabou de pivotar para criar um marketplace de ve
 Sua tarefa é bem simples. Dada a estória abaixo, crie alguns cenários de teste para usarmos no processo de QA e estruture da melhor forma possível para sua execução. Lembre-se que a execução poderá ser feita por você ou algum outro integrante do time.
 
 #### Estória:
-O usuário comprador gostaria de poder cadastrar diversos endereços de entrega, e durante o fechamento do pedido, escolher o endereço de entrega, entre os já cadastrados. Caso o endereço desejado não conste na lista, o comprador terá a opção de cadastrar um novo endereco neste momento (finalização da compra).
+
+Cenário atual: Hoje o comprador pode ter apenas 1 endereço cadastrado. Se ele desejar fazer uma compra para um outro endereço, ele precisa alterar seu endereco principal antes de finalizar o pedido.
+
+O que precisamos: O usuário comprador gostaria de poder cadastrar diversos endereços para entrega, e durante o fechamento do pedido, escolher o endereço de entrega, entre os já cadastrados. Caso o endereço desejado não conste na lista, o comprador terá a opção de cadastrar um novo endereco neste momento (finalização da compra).
 
 No seu perfil, o comprador poderá gerenciar seus endereços (listar, cadastrar um novo ou excluir um já existente).
 
 O sistema deverá finalizar o pedido para o endereço escolhido no momento do checkout, não mais para o endereço principal, como é feito hoje.
 
-Cenário atual: Hoje o comprador pode ter apenas 1 endereço cadastrado. Se ele desejar fazer uma compra para um outro endereço, ele precisa alterar seu endereco principal antes de finalizar o pedido.
 
 ### O que deverá ser entregue
 
@@ -51,13 +53,13 @@ Cenário atual: Hoje o comprador pode ter apenas 1 endereço cadastrado. Se ele 
   * Especificar o que precisa ser testado, o pre-requisito e o resultado esperado para cada CT
   * Lista de premissas, caso necessário
 
-* Você se destacará ainda mais se fizer algum desses pontos:
-  * Documentar o CT em uma boa estrutura
-  * Especificar a massa de teste a ser utilizada, e como obtê-la
-  * Deixar bem claro os critérios de aceite do CT
-  * Identificar (não precisa especificar) CTs alternativos
+  * Você se destacará ainda mais se fizer algum desses pontos:
+    * Documentar o CT em uma boa estrutura
+    * Especificar a massa de teste a ser utilizada, e como obtê-la
+    * Deixar bem claro os critérios de aceite do CT
+    * Identificar (não precisa especificar) CTs alternativos
 
 
 ### Entrevista técnica
 
-Esse desafio será o assunto principal da entrevista técnica. Nessa conversa discutiremos o entendimento funcional, como os CTs foram estruturados e a dinâmica da sprint (elaboração dos CTs, desenvolvimento, testes, abertura de incidentes).
+Esse desafio será o assunto principal da entrevista técnica. Nessa conversa discutiremos o entendimento funcional, como os CTs foram estruturados e a dinâmica da sprint (elaboração dos CTs, desenvolvimento, testes, abertura de incidentes). O objetivo principal é avaliarmos como o candidato poderá contribuir, de forma complementar, para o sucesso da sprint.
